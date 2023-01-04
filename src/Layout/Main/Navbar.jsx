@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-black lg:py-5 py-2">
-          <ul className={`width flex gap-x-6 text-lg`}
+          <ul className={`${navbar ? "" : "width flex gap-x-6 text-lg"}`}
           onClick={() => setNavbar(false)}
           >
         <li>
