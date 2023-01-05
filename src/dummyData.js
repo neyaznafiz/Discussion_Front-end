@@ -429,27 +429,27 @@ export const gallery = [
 export const discover = [
   {
     title: "games",
-    cover: "../images/discover/d1.jpg",
+    cover: "https://i.ibb.co/Cv0qnsx/d1.jpg",
   },
   {
     title: "sports",
-    cover: "../images/discover/d2.jpg",
+    cover: "https://i.ibb.co/FD4nJPY/d2.jpg",
   },
   {
     title: "humour",
-    cover: "../images/discover/d3.jpg",
+    cover: "https://i.ibb.co/h1hJrkR/d3.jpg",
   },
   {
     title: "gadgets",
-    cover: "../images/discover/d4.jpg",
+    cover: "https://i.ibb.co/M8YRDz0/d4.jpg",
   },
   {
     title: "movies",
-    cover: "../images/discover/d5.jpg",
+    cover: "https://i.ibb.co/Sx8L7s8/d5.jpg",
   },
   {
     title: "nitendo",
-    cover: "../images/discover/d6.jpg",
+    cover: "https://i.ibb.co/2jJvyNV/d6.jpg",
   },
 ]
 {
