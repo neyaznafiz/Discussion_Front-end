@@ -13,12 +13,11 @@ const Heading = ({ title }) => {
     <div className="heading">
       <h6
         className={`${
-          title ===
-          ("Stay Connected" ||
-            "Subscribe" ||
-            "TikTok Post" ||
-            "Categories" ||
-            "Gallery")
+          title === "Stay Connected" ||
+          "Subscribe" ||
+          "TikTok Post" ||
+          "Categories" ||
+          "Gallery"
             ? "bg-black"
             : "bg-red-700"
         } `}

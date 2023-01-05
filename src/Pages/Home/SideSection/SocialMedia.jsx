@@ -6,10 +6,13 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
+import Heading from "../../../Components/Common/Heading";
 
 const SocialMedia = () => {
   return (
     <div>
+      <Heading title="Stay Connected" />
+
       <section className="flex flex-col gap-y-2">
         {/* fb */}
         <div className="bg-sky-800 py-3 text-white text-lg flex items-center gap-x-3 ">

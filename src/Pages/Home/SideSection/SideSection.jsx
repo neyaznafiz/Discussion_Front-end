@@ -1,14 +1,13 @@
 import React from "react";
-import Heading from "../../../Components/Common/Heading";
+
 import SocialMedia from "./SocialMedia";
+import Subscribe from "./Subscribe";
 
 const SideSection = () => {
   return (
     <div className="">
-      <div>
-              <Heading title="Stay Connected" />
-              <SocialMedia/>
-      </div>
+      <SocialMedia />
+      <Subscribe />
     </div>
   );
 };
