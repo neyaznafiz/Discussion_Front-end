@@ -29,7 +29,7 @@ const Popular = () => {
   };
 
   return (
-    <div className="width">
+    <div>
       <section>
         <Heading title="Popular" />
 
@@ -39,12 +39,12 @@ const Popular = () => {
               return (
                 <div className="">
                   <div className="bg-white flex relative my-4 mr-3 shadow-lg">
-                    <div className="relative h-40">
-                      <div className="">
+                    <div className="relative h-44">
+                      <div className="w-72 mb-0">
                         <img
                           src={data.cover}
                           alt=""
-                          className="w-72 h-40 cover"
+                          className="w-72 h-44 "
                         />
                       </div>
                       <div class="category category-c">

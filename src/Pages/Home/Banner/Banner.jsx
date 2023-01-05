@@ -7,7 +7,7 @@ const Banner = () => {
 
 
   return (
-    <div className="width">
+    <div>
       <section className="my-8 text-white">
         <div className="grid-c ">
           {items.map(item => <BannerCard key={item.id} item={item} />)}

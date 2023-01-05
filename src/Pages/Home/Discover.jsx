@@ -5,7 +5,7 @@ import { discover } from "../../dummyData";
 const Discover = () => {
 
   return (
-    <div className="width">
+    <div>
       <section>
         <Heading title="Discover" />
 
