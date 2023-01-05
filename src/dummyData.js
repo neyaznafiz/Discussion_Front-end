@@ -1,7 +1,7 @@
-export const hero = [
+export const banner = [
   {
     id: 1,
-    cover: "../images/hero/hero1.jpg",
+    cover: "https://i.ibb.co/r4P8PmB/hero1.jpg",
     catgeory: "featured",
     title: "Google To Boost Android Security In Few Days",
     authorName: "Salman",
@@ -36,7 +36,7 @@ export const hero = [
   },
   {
     id: 2,
-    cover: "../images/hero/hero2.jpg",
+    cover: "https://i.ibb.co/CBRDvzC/hero2.jpg",
     catgeory: "sport",
     title: "More than billion football fans attend Brazil world cup",
     authorName: "alex",
@@ -71,7 +71,7 @@ export const hero = [
   },
   {
     id: 3,
-    cover: "../images/hero/hero3.jpg",
+    cover: "https://i.ibb.co/8MtNgdh/hero3.jpg",
     catgeory: "fashion",
     title: "No escaping new high tech speed cameras",
     authorName: "rina",
@@ -106,7 +106,7 @@ export const hero = [
   },
   {
     id: 4,
-    cover: "../images/hero/hero4.jpg",
+    cover: "https://i.ibb.co/zfy4pFp/hero4.jpg",
     catgeory: "technology",
     title: "Emma Watson stands up for Turkish women",
     authorName: "sunil",
