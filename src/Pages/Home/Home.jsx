@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="width">
       <Banner />
-      <div className="flex gap-x-5">
+      <div className="lg:flex gap-x-5">
         <div className="lg:w-[75%] w-full">
           <Popular />
           <PopularPosts />

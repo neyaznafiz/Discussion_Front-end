@@ -6,7 +6,7 @@ const TopNav = () => {
   return (
     <div>
       <div className="width flex items-start justify-between py-10">
-        <div>
+        <div className="md:mx-auto lg:mx-0">
           <img src={logo} alt="logo" className="w-[500px]" />
         </div>
         <div className="hidden lg:block">

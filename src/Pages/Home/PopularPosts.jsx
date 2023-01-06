@@ -11,6 +11,16 @@ const PopularPosts = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          rows: 2,
+        },
+      },
+    ],
   };
   return (
     <div>

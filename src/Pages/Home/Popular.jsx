@@ -36,28 +36,36 @@ const Popular = () => {
           <Slider {...settings}>
             {popular.map((data) => {
               return (
-                <div className="">
-                  <div className="bg-white flex relative my-4 mr-3 shadow">
+                <div>
+                  <div className="bg-white lg:flex relative my-4 mr-3 shadow h-[350px] lg:h-full">
                     <div className="relative h-44">
-                      <div className="w-72 mb-0">
-                        <img src={data.cover} alt="" className="w-72 h-44 " />
+                      <div className="lg:w-72 mb-0">
+                        <img
+                          src={data.cover}
+                          alt=""
+                          className="lg:w-72 w-full h-44 "
+                        />
                       </div>
                       <div class="category category-c absolute top-0 left-0 py-1 px-2 hover:bg-left-bottom">
                         <span>{data.category}</span>
                       </div>
                     </div>
-                    <div className="text">
+                    <div>
                       <h1 className="pt-5 ml-5 text-xl">
                         {data.title.slice(0, 40)}...
                       </h1>
-                      <div className="mt-4 pl-5 flex items-center gap-x-4">
-                        <CgCalendarDates className="text-xl text-red-700" />
-                        <label>{data.date}</label>
-                      </div>
 
-                      <div className="pl-5 pt-3 border-t mt-3 w-full flex items-center gap-x-4">
-                        <FaComments className="text-xl text-red-700" />
-                        <label>{data.comments}</label>
+
+                      <div className="absolute bottom-3">
+                        <div className="mt-4 pl-5 flex items-center gap-x-4">
+                          <CgCalendarDates className="text-xl text-red-700" />
+                          <label>{data.date}</label>
+                        </div>
+
+                        <div className="pl-5 pt-3 border-t mt-3 w-full flex items-center gap-x-4">
+                          <FaComments className="text-xl text-red-700" />
+                          <label>{data.comments}</label>
+                        </div>
                       </div>
                     </div>
                   </div>

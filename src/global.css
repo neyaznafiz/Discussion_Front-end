@@ -66,14 +66,14 @@ body {
     grid-row-end: 9;
   }
 
-  /* @media screen and (max-width: 768px) { */
-    /* .grid-c {
+  @media screen and (max-width: 768px) {
+     .grid-c {
       display: grid;
       grid-template-columns: repeat(8, 1fr);
       grid-template-rows: repeat(18, 6vh);
       grid-gap: 10px;
-    } */
-    /* .child:nth-child(1) {
+    } 
+     .child:nth-child(1) {
       grid-column-start: 1;
       grid-column-end: 9;
       grid-row-start: 1;
@@ -97,7 +97,7 @@ body {
       grid-row-start: 15;
       grid-row-end: 20;
     }
-  } */
+  } 
 
   .child:nth-child(1) h1 {
     font-size: 28px;
