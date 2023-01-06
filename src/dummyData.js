@@ -370,34 +370,34 @@ export const popular = [
   },
 ];
 
-export const ppost = [
+export const popularPost = [
   {
     id: 1,
     catgeory: "world",
     title: "We Went Deep Underground For This Amazing Cave Shot",
     date: "19. February 2022",
-    cover: "../images/ppost/pop1.jpg",
+    cover: "https://i.ibb.co/41QTwfj/pop1.jpg",
   },
   {
     id: 2,
     catgeory: "health",
     title: "6 Reasons Why You Shouldn’t Skip Breakfast",
     date: "19. February 2022",
-    cover: "../images/ppost/pop2.jpg",
+    cover: "https://i.ibb.co/wMbfbyP/pop2.jpg",
   },
   {
     id: 3,
     catgeory: "food",
     title: "Our Top 5 Restaurants For A Complete Culinary Experience",
     date: "19. February 2022",
-    cover: "../images/ppost/pop3.jpg",
+    cover: "https://i.ibb.co/S3j5rFV/pop3.jpg",
   },
   {
     id: 4,
     catgeory: "fashion",
     title: "Hipster Chic Is In Again: Get Some Glasses",
     date: "19. February 2022",
-    cover: "../images/ppost/pop4.jpg",
+    cover: "https://i.ibb.co/bs2JzLm/pop4.jpg",
   },
 ];
 export const lifestyle = [

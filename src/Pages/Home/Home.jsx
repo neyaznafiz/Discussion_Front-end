@@ -3,6 +3,7 @@ import Discover from "./Discover";
 import Banner from "./Banner/Banner";
 import Popular from "./Popular";
 import SideSection from "./SideSection/SideSection";
+import PopularPosts from "./PopularPosts";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <div className="flex gap-x-5">
         <div className="lg:w-[75%] w-full">
           <Popular />
+          <PopularPosts/>
         </div>
         <div className="lg:w-[25%] w-full">
           <SideSection />
