@@ -5,6 +5,7 @@ import Popular from "./Popular";
 import SideSection from "./SideSection/SideSection";
 import PopularPosts from "./PopularPosts";
 import LifeStyle from "./LifeStyle";
+import Music from "./Music";
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
         <div className="lg:w-[75%] w-full">
           <Popular />
           <PopularPosts />
-          <LifeStyle/>
+          <LifeStyle />
+          <Music/>
         </div>
         <div className="lg:w-[25%] w-full">
           <SideSection />

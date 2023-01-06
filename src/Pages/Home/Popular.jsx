@@ -46,8 +46,8 @@ const Popular = () => {
                         <span>{data.category}</span>
                       </div>
                     </div>
-                    <div className="text row">
-                      <h1 className=" pt-5 ml-5 text-xl">
+                    <div className="text">
+                      <h1 className="pt-5 ml-5 text-xl">
                         {data.title.slice(0, 40)}...
                       </h1>
                       <div className="mt-4 pl-5 flex items-center gap-x-4">
