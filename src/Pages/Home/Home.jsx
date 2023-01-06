@@ -11,12 +11,12 @@ const Home = () => {
       <div className="flex gap-x-5">
         <div className="lg:w-[75%] w-full">
           <Popular />
-          <Discover />
         </div>
         <div className="lg:w-[25%] w-full">
           <SideSection />
         </div>
       </div>
+          <Discover />
     </div>
   );
 };

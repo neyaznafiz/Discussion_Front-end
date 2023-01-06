@@ -396,17 +396,17 @@ export const tpost = [
   {
     id: 1,
     title: "US Promises to give Intel aid to locate the soldiers",
-    cover: "../images/tpost/tpost.webp",
+    cover: "https://i.ibb.co/WyLq0kr/tpost.webp",
   },
   {
     id: 2,
     title: "Renewable energy dead as industry waits for Policy",
-    cover: "../images/tpost/tpost2.jpg",
+    cover: "https://i.ibb.co/sRg2Q24/tpost2.jpg",
   },
   {
     id: 3,
     title: "Mount Etna erupts fashion in nice looking pictures",
-    cover: "../images/tpost/tpost3.jpg",
+    cover: "https://i.ibb.co/920YchF/tpost3.jpg",
   },
 ]
 export const gallery = [
