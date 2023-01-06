@@ -17,10 +17,10 @@ const Category = () => {
     <div>
       <Heading title="Categories" />
       <section className="flex flex-col gap-y-3">
-        {category.map((val) => {
+        {category.map((data) => {
           return (
             <div className="category category-c hover:bg-left-bottom py-3 px-2">
-              <span>{val}</span>
+              <span>{data}</span>
             </div>
           );
         })}

@@ -4,6 +4,7 @@ import Subscribe from "./Subscribe";
 import addImg from "../../../Assets/sidebar-banner-new.jpg";
 import TikTok from "./TikTok";
 import Category from "./Category";
+import Gallery from "./Gallery";
 
 const SideSection = () => {
   return (
@@ -19,6 +20,7 @@ const SideSection = () => {
 
       <TikTok />
       <Category />
+      <Gallery/>
     </div>
   );
 };

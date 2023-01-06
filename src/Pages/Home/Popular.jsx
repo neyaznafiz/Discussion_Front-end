@@ -1,7 +1,6 @@
 import React from "react";
 import Heading from "../../Components/Common/Heading";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import { popular } from "../../dummyData";
 import { CgCalendarDates } from 'react-icons/cg';
 import { FaComments } from 'react-icons/fa';
