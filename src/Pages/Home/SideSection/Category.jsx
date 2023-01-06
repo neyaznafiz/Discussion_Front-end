@@ -15,7 +15,7 @@ const Category = () => {
 
   return (
     <div>
-      <Heading title="Categories" />
+      <Heading title="Categories" bc="bg-black"/>
       <section className="flex flex-col gap-y-3">
         {category.map((data) => {
           return (

@@ -5,7 +5,7 @@ import { tpost } from "../../../dummyData";
 const TikTok = () => {
   return (
     <div>
-      <Heading title="TikTok Post" />
+      <Heading title="TikTok Post" bc="bg-black"/>
 
       <section className="">
         {tpost.map((val) => {

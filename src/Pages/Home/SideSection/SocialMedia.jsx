@@ -11,7 +11,7 @@ import Heading from "../../../Components/Common/Heading";
 const SocialMedia = () => {
   return (
     <div>
-      <Heading title="Stay Connected" />
+      <Heading title="Stay Connected" bc="bg-black" />
 
       <section className="flex flex-col gap-y-2">
         {/* fb */}

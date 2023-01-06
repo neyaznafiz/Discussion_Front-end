@@ -14,7 +14,7 @@ const Gallery = () => {
 
   return (
     <div>
-      <Heading title="Gallery" />
+      <Heading title="Gallery" bc="bg-black"/>
       <section>
         <Slider {...settings}>
           {gallery.map((data) => {

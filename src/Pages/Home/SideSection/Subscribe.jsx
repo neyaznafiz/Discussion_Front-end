@@ -5,7 +5,7 @@ import { IoIosSend } from "react-icons/io";
 const Subscribe = () => {
   return (
     <div>
-      <Heading title="Subscribe" />
+      <Heading title="Subscribe" bc="bg-black" />
 
       <section className="border border-black p-5">
         <h1 className="text-xl pb-2">Subscribe to our New Stories</h1>

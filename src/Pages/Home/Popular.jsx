@@ -30,7 +30,7 @@ const Popular = () => {
   return (
     <div>
       <section>
-        <Heading title="Popular" />
+        <Heading title="Popular" bc="bg-red-700"/>
 
         <div>
           <Slider {...settings}>

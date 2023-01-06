@@ -7,7 +7,7 @@ const Discover = () => {
   return (
     <div>
       <section>
-        <Heading title="Discover" />
+        <Heading title="Discover" bc="bg-red-700"/>
 
         <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-x-10">
           {discover.map((data) => {
