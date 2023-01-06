@@ -47,7 +47,7 @@ const Popular = () => {
                           className="w-72 h-44 "
                         />
                       </div>
-                      <div class="category category-c">
+                      <div class="category category-c absolute top-0 left-0 py-1 px-2 hover:bg-left-bottom">
                         <span>{data.catgeory}</span>
                       </div>
                     </div>
