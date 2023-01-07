@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white mt-12">
       <footer className=" pt-12 width">
         <div className="flex lg:flex-row flex-col lg:justify-between justify-center  lg:gap-x-7 my-12">
           {/* ------------ */}
