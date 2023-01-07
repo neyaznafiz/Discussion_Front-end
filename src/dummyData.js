@@ -5,7 +5,7 @@ export const banner = [
     category: "featured",
     title: "Google To Boost Android Security In Few Days",
     authorName: "Salman",
-    authorImg: "../images/author.jpg",
+    authorImg: "https://i.ibb.co/Gc96mbJ/author.jpg",
     time: "5 Jun - 2022",
     desc: [
       {
@@ -49,7 +49,7 @@ export const banner = [
     category: "sport",
     title: "More than billion football fans attend Brazil world cup",
     authorName: "alex",
-    authorImg: "../images/author.jpg",
+    authorImg: "https://i.ibb.co/Gc96mbJ/author.jpg",
     time: "12 Aug - 2022",
     desc: [
       {
@@ -93,7 +93,7 @@ export const banner = [
     category: "fashion",
     title: "No escaping new high tech speed cameras",
     authorName: "rina",
-    authorImg: "../images/author.jpg",
+    authorImg: "https://i.ibb.co/Gc96mbJ/author.jpg",
     time: "22 Mar - 2022",
     desc: [
       {
@@ -133,7 +133,7 @@ export const banner = [
   },
   {
     id: 4,
-    cover: "https://i.ibb.co/zfy4pFp/hero4.jpg",
+    cover: "https://i.ibb.co/Gc96mbJ/author.jpg",
     category: "technology",
     title: "Emma Watson stands up for Turkish women",
     authorName: "sunil",

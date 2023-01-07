@@ -3,7 +3,7 @@ import { banner } from "../../../dummyData";
 import BannerCard from "./BannerCard";
 
 const Banner = () => {
-  const [items, setItems] = useState(banner);
+  const [items] = useState(banner);
 
 
   return (

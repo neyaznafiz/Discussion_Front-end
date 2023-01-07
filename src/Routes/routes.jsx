@@ -7,6 +7,7 @@ import Politics from "../Pages/Politics";
 import Memes from "../Pages/Memes";
 import Boxed from "../Pages/Boxed";
 import Reviews from "../Pages/Reviews";
+import DetailsPage from "../Pages/DetailsPage/DetailsPage";
 
 const routes = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/details/:id",
+        element: <DetailsPage />,
       },
       {
         path: "/culture",
