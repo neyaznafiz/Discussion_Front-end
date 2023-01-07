@@ -4,6 +4,7 @@ import { banner } from "../../dummyData";
 import SideSection from "../Home/SideSection/SideSection";
 import { FaFacebookF, FaPinterest, FaQuoteLeft, FaTwitter } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
+import TopSlider from "./TopSlider";
 
 const DetailsPage = () => {
   const { id } = useParams();
@@ -22,7 +23,7 @@ const DetailsPage = () => {
     <div className="width">
       {item ? (
         <main>
-          {/* <SinglePageSlider /> */}
+          <TopSlider />
           <div className="lg:flex my-10">
             <section className="lg:w-[75%] w-full">
               <h1 className="text-4xl font-bold tracking-wide">{item.title}</h1>
