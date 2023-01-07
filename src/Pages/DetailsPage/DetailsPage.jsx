@@ -11,8 +11,8 @@ const DetailsPage = () => {
   const [item, setItem] = useState(null);
 
   useEffect(() => {
-    const item = banner.find((item) => parseInt(id));
-    // window.scrollTo(0, 0);
+    const item = banner.find((item) => item.id === parseInt(id));
+    window.scrollTo(0, 0);
     if (item) {
       setItem(item);
     }
@@ -38,7 +38,7 @@ const DetailsPage = () => {
                 <label className="text-gray-500">{item.time}</label>
               </div>
 
-              <div className="flex gap-x-3 my-5">
+              <div className="sm:flex grid grid-cols-2 gap-5 sm:gap-x-3 my-5">
                 <div className="bg-sky-800 py-2 text-white text-lg flex items-center justify-between w-28 px-3">
                   <FaFacebookF />
                   <span className="font-semibold">Share</span>
@@ -60,7 +60,7 @@ const DetailsPage = () => {
                 </div>
               </div>
 
-              <div className="mr-14">
+              <div className="lg:mr-14">
                 <div className=" mt-10">
                   {item.desc.map((data) => {
                     return (
@@ -71,9 +71,9 @@ const DetailsPage = () => {
                     );
                   })}
                 </div>
-                <img src={item.cover} alt="" />
-                {item.desc.map((val) => (
-                  <p className="my-7">{val.para3}</p>
+                <img src={item.cover} alt="" className="h-96"/>
+                {item.desc.map((data) => (
+                  <p className="my-7">{data.para3}</p>
                 ))}
 
                 <div className="">
